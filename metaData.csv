@@ -1,0 +1,61 @@
+Column Name,Description
+ID,Unique identifier for each hospital stay
+STAY_DRG_CD,Diagnosis-Related Group code for the stay
+STAY_FROM_DT,Admission date of the stay
+STAY_THRU_DT,Discharge date of the stay
+STUS_CD,Patient status code at discharge
+TYPE_ADM,"Type of admission (e.g., emergency, elective)"
+SRC_ADMS,"Source of admission (e.g., physician referral, transfer)"
+AD_DGNS,Primary admitting diagnosis (ICD code)
+DGNSCD01,Diagnosis code 1 (ICD)
+PRCDRCD01,Procedure code 1
+DGNSCD02,Diagnosis code 2 (ICD)
+PRCDRCD02,Procedure code 2
+DGNSCD03,Diagnosis code 3 (ICD)
+PRCDRCD03,Procedure code 3
+DGNSCD04,Diagnosis code 4 (ICD)
+PRCDRCD04,Procedure code 4
+DGNSCD05,Diagnosis code 5 (ICD)
+PRCDRCD05,Procedure code 5
+DGNSCD06,Diagnosis code 6 (ICD)
+PRCDRCD06,Procedure code 6
+DGNSCD07,Diagnosis code 7 (ICD)
+PRCDRCD07,Procedure code 7
+DGNSCD08,Diagnosis code 8 (ICD)
+PRCDRCD08,Procedure code 8
+DGNSCD09,Diagnosis code 9 (ICD)
+PRCDRCD09,Procedure code 9
+DGNSCD10,Diagnosis code 10 (ICD)
+PRCDRCD10,Procedure code 10
+DGNSCD11,Diagnosis code 11 (ICD)
+PRCDRCD11,Procedure code 11
+DGNSCD12,Diagnosis code 12 (ICD)
+PRCDRCD12,Procedure code 12
+DGNSCD13,Diagnosis code 13 (ICD)
+PRCDRCD13,Procedure code 13
+DGNSCD14,Diagnosis code 14 (ICD)
+PRCDRCD14,Procedure code 14
+DGNSCD15,Diagnosis code 15 (ICD)
+PRCDRCD15,Procedure code 15
+DGNSCD16,Diagnosis code 16 (ICD)
+PRCDRCD16,Procedure code 16
+DGNSCD17,Diagnosis code 17 (ICD)
+PRCDRCD17,Procedure code 17
+DGNSCD18,Diagnosis code 18 (ICD)
+PRCDRCD18,Procedure code 18
+DGNSCD19,Diagnosis code 19 (ICD)
+PRCDRCD19,Procedure code 19
+DGNSCD20,Diagnosis code 20 (ICD)
+PRCDRCD20,Procedure code 20
+DGNSCD21,Diagnosis code 21 (ICD)
+PRCDRCD21,Procedure code 21
+DGNSCD22,Diagnosis code 22 (ICD)
+PRCDRCD22,Procedure code 22
+DGNSCD23,Diagnosis code 23 (ICD)
+PRCDRCD23,Procedure code 23
+DGNSCD24,Diagnosis code 24 (ICD)
+PRCDRCD24,Procedure code 24
+DGNSCD25,Diagnosis code 25 (ICD)
+PRCDRCD25,Procedure code 25
+stay_drg_cd,Duplicate of STAY_DRG_CD for compatibility
+Readmitted_30,"Target variable: 1 = Readmitted within 30 days, 0 = Not readmitted"
